@@ -12,7 +12,7 @@ class UI {
   
       this.uiContainer.innerHTML = `
           
-          <div class="card mx-auto mt-5" style="width: 25rem; background-color: chocolate; color: black; text-align: center;" >
+          <div class="card mx-auto mt-5" style="width: 23rem; background-color: chocolate; color: black; text-align: center;" >
               <div class="card-body justify-content-center" >
                   <h5 class="card-title">${data.name}</h5>
                   <h6 class="card-subtitle mb-2 ">Highs of ${data.main.temp_max}°F</h6>
